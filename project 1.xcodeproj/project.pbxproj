@@ -6,11 +6,36 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXFileReference section */
+		BE45A387204B475B003AC7E5 /* PersonType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonType.h; sourceTree = "<group>"; };
+		BE45A389204B48BF003AC7E5 /* PersonType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PersonType.cpp; sourceTree = "<group>"; };
+		BE45A38A204B9EF6003AC7E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		BE45A37E204B471E003AC7E5 = {
 			isa = PBXGroup;
 			children = (
+				BE45A38A204B9EF6003AC7E5 /* main.cpp */,
+				BE45A388204B48A4003AC7E5 /* Source Files */,
+				BE45A386204B4736003AC7E5 /* Headers */,
 			);
+			sourceTree = "<group>";
+		};
+		BE45A386204B4736003AC7E5 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BE45A387204B475B003AC7E5 /* PersonType.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		BE45A388204B48A4003AC7E5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE45A389204B48BF003AC7E5 /* PersonType.cpp */,
+			);
+			path = "Source Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
